@@ -8,3 +8,40 @@ h1{
     font-size: xx-large;
     text-align: center;
 }
+#increment-btn{
+    display: inline-block;
+    color: white;
+    margin-left: 45%;
+    text-align: center;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    border: 1px solid black;
+    font-size: 20px;
+    transition-duration: 0.45s;
+}
+#increment-btn:hover{
+    background-color: rgb(177, 40, 40);
+    color: grey;
+}
+#save-btn{
+    display: inline-block;
+    color: white;
+    margin-left: 45%;
+    text-align: center;
+    background-color: green;
+    border: none;
+    border-radius: 4px;
+    border: 1px solid black;
+    font-size: 20px;
+    transition-duration: 0.45s;
+}
+#save-btn:hover{
+    background-color: lightgreen;
+    color: grey;
+}
+
+#savedEl{
+    font-size: xx-large;
+    text-align: center;
+}
